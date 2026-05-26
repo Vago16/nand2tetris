@@ -6,7 +6,7 @@ From this single building block, I construct all fundamental components needed f
 
 
 
-******Project Overview********
+***Project Overview**
 
 Starting from a single primitive gate (Nand), I implement a hierarchy of logic components:
 
@@ -22,24 +22,24 @@ DMux8Way
 
 These components form the foundational building blocks for the CPU and memory systems in later Nand2Tetris projects.
 
-****Project Structure****
+**Project Structure**
 projects/01/
-├── Nand.hdl        (provided)
-├── Not.hdl
-├── And.hdl
-├── Or.hdl
-├── Xor.hdl
-├── Mux.hdl
-├── DMux.hdl
-├── Not16.hdl
-├── And16.hdl
-├── Or16.hdl
-├── Mux16.hdl
-├── Or8Way.hdl
-├── Mux4Way16.hdl
-├── Mux8Way16.hdl
-├── DMux4Way.hdl
-└── DMux8Way.hdl
+    ├── Nand.hdl        (provided)
+    ├── Not.hdl
+    ├── And.hdl
+    ├── Or.hdl
+    ├── Xor.hdl
+    ├── Mux.hdl
+    ├── DMux.hdl
+    ├── Not16.hdl
+    ├── And16.hdl
+    ├── Or16.hdl
+    ├── Mux16.hdl
+    ├── Or8Way.hdl
+    ├── Mux4Way16.hdl
+    ├── Mux8Way16.hdl
+    ├── DMux4Way.hdl
+    └── DMux8Way.hdl
 
 Note: Each .hdl file is paired with a .tst and .cmp file for testing
 
